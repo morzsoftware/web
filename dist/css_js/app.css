@@ -1,0 +1,195 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.my-hero {
+    background-color: #27ae60;
+    height: 100vh;
+    text-align: center;
+    color: #fbfcfc;
+    margin: auto;
+    min-height: 598px;
+    overflow-y: hidden;
+}
+
+.my-hero .hero-bg {
+    display: inline-block;
+    background: url(../images/hero-bg.jpg) no-repeat center center fixed;
+    width: 80%;
+    max-width: 1024px;
+    border-radius: 5px;
+    margin-top: 80px;
+    min-height: 500px;
+    -webkit-box-shadow: 0px 0px 68px -21px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 68px -21px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 68px -21px rgba(0, 0, 0, 0.75);
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.my-hero .browser {
+    background: url(../images/browser.png) no-repeat top left;
+    height: 40px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.top-navigation a {
+    margin-top: 15px;
+
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fbfcfc;
+    background-color: #2ecc71;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.top-navigation .right-menu-item a {
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+
+}
+
+.top-navigation .right-menu-item a:hover {
+    background-color: #37D278;
+}
+
+.top-navigation .left-menu-item .logo {
+    float: left;
+    margin: 15px 0 0 50px;
+    text-decoration: none;
+    height: 60px;
+    width: 60px;
+}
+
+.top-navigation .left-menu-item .company-name {
+    float: left;
+    margin: 35px 20px 0;
+    font-size: 1.7em;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+
+.hero-title {
+
+    font-size: 3.7em;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 0 10px 0 10px;
+}
+
+.hero-title-sub {
+    margin: 20px 0 10px 0;
+    font-size: 2em;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0 10px 0 10px;
+}
+
+.w-clearfix:before, .w-clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.w-clearfix:after {
+    clear: both;
+}
+
+.app-section {
+    line-height: 1.7;
+    color: #787f8c;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    margin: 80px 0 50px 0;
+    font-size: 1.2em;
+}
+
+.app-section h1 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #5c5c5c;
+    margin: 0 0 1em;
+}
+
+.my-footer {
+    margin: 50px 0 0 0;
+    font-size: 1.2em;
+    background-color: #f2f5f8;
+    height: 400px;
+}
+
+.app-section .preview {
+    background: url(../images/onleave-bg.png) no-repeat top right;
+    height: 355px;
+}
+
+.app-section .description {
+    padding-left: 80px;
+}
+
+.app-section p {
+    max-width: 500px;
+}
+
+.app-section a.product {
+    margin-top: 1em;
+    display: inline-block;
+    border: none;
+    background-color: #2c3e50;
+    color: #fbfcfc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-decoration: none;
+    padding: 10px 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.app-section a.product:hover {
+    color: #fbfcfc;
+    background-color: #34495e;
+}
+
+@media (max-width: 320px ) {
+    .hero-title {
+
+        font-size: 3em;
+    }
+
+    .hero-title-sub {
+
+        font-size: 1.7em;
+
+    }
+
+    /*.my-hero .browser {*/
+    /*display: none;*/
+    /*}*/
+    .top-navigation .right-menu-item a {
+        margin-right: 20px;
+    }
+
+    .top-navigation .left-menu-item .logo {
+        margin-left: 20px;
+    }
+}
