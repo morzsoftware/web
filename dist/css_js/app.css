@@ -1,113 +1,99 @@
-
 body {
     font-family: 'Montserrat', sans-serif;
-
     line-height: 20px;
     font-size: 14px;
 }
 
 .my-hero {
-    background-color: #1E824C;
-    height: 100vh;
+    background-color: #1e824c;
     text-align: center;
     color: #fbfcfc;
-    margin: auto;
-    min-height: 598px;
-    overflow-y: hidden;
+    margin-bottom: -20px;
+}
+
+.trim-my-hero {
+    float: left;
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
 }
 
 .my-hero .hero-bg {
     display: inline-block;
     background: url(../images/hero-bg.jpg) no-repeat top center;
-    width: 80%;
-    max-width: 1024px;
     border-radius: 5px;
-    margin-top: 80px;
-    min-height: 500px;
-    -webkit-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.28);
-    -moz-box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.28);
-    box-shadow: 0px 0px 23px -1px rgba(0,0,0,0.28);
-
+    margin-top: 15px;
+    -webkit-box-shadow: 0 0 23px -1px rgba(0, 0, 0, .28);
+       -moz-box-shadow: 0 0 23px -1px rgba(0, 0, 0, .28);
+            box-shadow: 0 0 23px -1px rgba(0, 0, 0, .28);
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    width: 100%;
+    max-width: 1024px;
+    height: 330px;
 }
 
 .my-hero .browser {
     background: url(../images/browser.png) no-repeat top left;
-    height: 40px;
     -webkit-border-radius: 5px 5px 0 0;
-    -moz-border-radius: 5px 5px 0 0;
-    border-radius: 5px 5px 0 0;
+       -moz-border-radius: 5px 5px 0 0;
+            border-radius: 5px 5px 0 0;
+    height: 40px;
+}
+
+.my-hero .hero-title {
+    font-size: 3.2em;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: 30px 0 30px 0;
+}
+
+.my-hero .hero-title-sub {
+    font-size: 1.7em;
+    line-height: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
 }
 
 .top-navigation a {
-    margin-top: 15px;
-
-    margin-bottom: 15px;
+    display: inline-block;
+    text-align: center;
     padding: 15px;
     font-size: 17px;
     font-weight: 700;
     color: #fbfcfc;
-    background-color: #26A65B;
+    background-color: #26a65b;
     -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
 }
 
 .top-navigation .right-menu-item a {
-    float: right;
-    margin-right: 50px;
     text-decoration: none;
-
 }
 
 .top-navigation .right-menu-item a:hover {
-    background-color: #2AB764;
+    background-color: #2ab764;
 }
 
 .top-navigation .left-menu-item .logo {
-    float: left;
-    margin: 15px 0 0 50px;
+    text-align: center;
+    margin: 15px 0 0 0;
     text-decoration: none;
     height: 60px;
     width: 60px;
 }
 
 .top-navigation .left-menu-item .company-name {
-    float: left;
-    margin: 35px 20px 0;
+    text-align: center;
+    margin: 30px 0 30px 0;
     font-size: 1.7em;
-    font-weight: 400;
-    letter-spacing: -2px;
-}
-
-.hero-title {
-
-    font-size: 3.7em;
-    line-height: 1em;
     font-weight: 700;
-    letter-spacing: 4px;
-    padding: 0 10px 0 10px;
-}
-
-.hero-title-sub {
-    margin: 20px 0 10px 0;
-    font-size: 2em;
-    line-height: 36px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding: 0 10px 0 10px;
-}
-
-.w-clearfix:before, .w-clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.w-clearfix:after {
-    clear: both;
+    letter-spacing: -2px;
 }
 
 .app-section {
@@ -117,8 +103,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-
-    margin: 80px 0 50px 0;
+    margin: 0 0 20px 0;
     font-size: 1.2em;
 }
 
@@ -126,7 +111,33 @@ body {
     font-size: 2em;
     font-weight: 400;
     color: #5c5c5c;
-    margin: 0 0 1em;
+    margin: 1em 0 1em 0;
+}
+
+.app-section .preview {
+    background: url(../images/onleave-bg.png) no-repeat top center;
+    height: 300px;
+}
+
+.app-section a.product {
+    margin-top: 1em;
+    display: inline-block;
+    border: none;
+    background-color: #1e082c;
+    color: #fbfcfc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    text-decoration: none;
+    padding: 10px 15px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+.app-section a.product:hover {
+    color: #fbfcfc;
+    background-color: #2f0d45;
 }
 
 .my-footer {
@@ -136,60 +147,90 @@ body {
     height: 400px;
 }
 
-.app-section .preview {
-    background: url(../images/onleave-bg.png) no-repeat top right;
-    height: 355px;
-}
-
-.app-section .description {
-    padding-left: 80px;
-}
-
-.app-section p {
-    max-width: 500px;
-}
-
-.app-section a.product {
-    margin-top: 1em;
-    display: inline-block;
-    border: none;
-    background-color: #2c3e50;
-    color: #fbfcfc;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 0.8em;
-    text-decoration: none;
-    padding: 10px 15px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-}
-
-.app-section a.product:hover {
-    color: #fbfcfc;
-    background-color: #34495e;
-}
-
-@media (max-width: 320px ) {
-    .hero-title {
-
-        font-size: 3em;
+/* Extra small devices (tablets, 480px and up) */
+@media (min-width: 480px ) {
+    .top-navigation a {
+        display: inline-block;
+        text-align: center;
+        margin: 20px 0 15px 0;
     }
 
-    .hero-title-sub {
-
-        font-size: 1.7em;
-
-    }
-
-    /*.my-hero .browser {*/
-    /*display: none;*/
-    /*}*/
     .top-navigation .right-menu-item a {
-        margin-right: 20px;
+        float: right;
+        margin-right: 0;
     }
 
     .top-navigation .left-menu-item .logo {
-        margin-left: 20px;
+        float: left;
+        margin: 15px 0 0 0;
+    }
+
+    .top-navigation .left-menu-item .company-name {
+        float: left;
+        margin: 38px 20px 0;
+    }
+
+    .my-hero {
+        height: 100vh;
+        margin-bottom: 0;
+        overflow-y: hidden;
+    }
+
+    .my-hero .hero-title {
+        margin: 80px 0 30px 0;
+    }
+
+    .my-hero .hero-bg {
+        margin-top: 80px;
+    }
+
+    .app-section .description {
+        padding: 0 50px 0 50px;
+    }
+}
+
+.w-clearfix:before, .w-clearfix:after {
+    content: ' ';
+    display: table;
+}
+
+.w-clearfix:after {
+    clear: both;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px ) {
+    .my-hero .hero-title {
+        font-size: 3.7em;
+    }
+
+    .my-hero .hero-title-sub {
+        font-size: 2em;
+    }
+
+    .my-hero .hero-bg {
+        height: 350px;
+    }
+
+    .app-section .description {
+        padding: 0 100px 0 100px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .my-hero .hero-bg {
+        height: 450px;
+    }
+
+    .app-section .preview {
+        background: url(../images/onleave-bg.png) no-repeat top right;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px ) {
+    .my-hero .hero-bg {
+        height: 650px;
     }
 }
