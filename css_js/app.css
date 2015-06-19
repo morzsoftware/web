@@ -1,0 +1,292 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.my-hero {
+    background-color: #1e824c;
+    text-align: center;
+    color: #fbfcfc;
+    margin-bottom: -20px;
+}
+
+.trim-my-hero {
+    float: left;
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+}
+
+.my-hero .hero-bg {
+    display: inline-block;
+    background: url(../images/hero-bg.jpg) no-repeat top center;
+    border-radius: 5px;
+    margin-top: 15px;
+    -webkit-box-shadow: 0 0 23px -1px rgba(0, 0, 0, .28);
+       -moz-box-shadow: 0 0 23px -1px rgba(0, 0, 0, .28);
+            box-shadow: 0 0 23px -1px rgba(0, 0, 0, .28);
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    width: 100%;
+    max-width: 1024px;
+    height: 330px;
+}
+
+.my-hero .browser {
+    background: url(../images/browser.png) no-repeat top left;
+    -webkit-border-radius: 5px 5px 0 0;
+       -moz-border-radius: 5px 5px 0 0;
+            border-radius: 5px 5px 0 0;
+    height: 40px;
+}
+
+.my-hero .hero-title {
+    font-size: 3.2em;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: 30px 0 30px 0;
+}
+
+.my-hero .hero-title-sub {
+    font-size: 1.7em;
+    line-height: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+}
+
+.top-navigation a {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fbfcfc;
+    background-color: #26a65b;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+.top-navigation .right-menu-item a {
+    text-decoration: none;
+}
+
+.top-navigation .right-menu-item a:hover {
+    background-color: #2ab764;
+}
+
+.top-navigation .left-menu-item .logo {
+    text-align: center;
+    margin: 15px 0 0 0;
+    text-decoration: none;
+    height: 60px;
+    width: 60px;
+}
+
+.top-navigation .left-menu-item .company-name {
+    text-align: center;
+    margin: 30px 0 30px 0;
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.app-section {
+    line-height: 1.7;
+    color: #787f8c;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    font-size: 1.2em;
+}
+
+.app-section h1 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #5c5c5c;
+    margin: 1em 0 1em 0;
+}
+
+.app-section .preview {
+    background: url(../images/onleave-bg.png) no-repeat top center;
+    height: 300px;
+}
+
+.app-section a.product {
+    margin-top: 1em;
+    display: inline-block;
+    border: none;
+    background-color: #1e082c;
+    color: #fbfcfc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    text-decoration: none;
+    padding: 10px 15px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+.app-section a.product:hover {
+    color: #fbfcfc;
+    background-color: #2f0d45;
+}
+
+.my-footer {
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px 0 0 0;
+    font-size: 1.2em;
+    background-color: #f2f5f8;
+    text-align: center;
+}
+
+.my-footer .subscribe-text {
+    margin-top: 60px;
+    color: #5c5c5c;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.my-footer .email {
+    float: left;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    border: solid 4px #bdc3c7;
+    font-size: 1.2em;
+    margin: 20px 0 10px 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 450px;
+    line-height: 1.5;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.my-footer .subscribe {
+    margin-top: 20px;
+    float: left;
+    border: none;
+    background-color: #9b50ba;
+    color: #fbfcfc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 21px 25px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    text-align: left;
+}
+
+.my-footer .footer-inner {
+    display: inline-block;
+}
+
+.my-footer .copyright {
+    margin: 100px 0 50px 0;
+    color: #7f8c8d;
+}
+
+/* Extra small devices (tablets, 480px and up) */
+@media (min-width: 480px ) {
+    .top-navigation a {
+        display: inline-block;
+        text-align: center;
+        margin: 20px 0 15px 0;
+    }
+
+    .top-navigation .right-menu-item a {
+        float: right;
+        margin-right: 0;
+    }
+
+    .top-navigation .left-menu-item .logo {
+        float: left;
+        margin: 15px 0 0 0;
+    }
+
+    .top-navigation .left-menu-item .company-name {
+        float: left;
+        margin: 38px 20px 0;
+    }
+
+    .my-hero {
+        height: 100vh;
+        margin-bottom: 0;
+        overflow-y: hidden;
+    }
+
+    .my-hero .hero-title {
+        margin: 80px 0 30px 0;
+    }
+
+    .my-hero .hero-bg {
+        margin-top: 80px;
+    }
+
+    .app-section .description {
+        padding: 0 30px 0 30px;
+    }
+
+    .my-footer .email {
+        margin-right: 20px;
+    }
+}
+
+.w-clearfix:before, .w-clearfix:after {
+    content: ' ';
+    display: table;
+}
+
+.w-clearfix:after {
+    clear: both;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px ) {
+    .my-hero .hero-title {
+        font-size: 3.7em;
+    }
+
+    .my-hero .hero-title-sub {
+        font-size: 2em;
+    }
+
+    .my-hero .hero-bg {
+        height: 350px;
+    }
+
+    .app-section .description {
+        padding: 0 50px 0 50px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .my-hero .hero-bg {
+        height: 450px;
+    }
+
+    .app-section .preview {
+        background: url(../images/onleave-bg.png) no-repeat top right;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px ) {
+    .my-hero .hero-bg {
+        height: 650px;
+    }
+}
